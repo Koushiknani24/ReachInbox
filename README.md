@@ -80,6 +80,8 @@ Workspace settings show the permanent default sender, sender controls, connected
 
 When Slack is not connected, “Keep your team in sync” gives the reviewer a direct **Connect Slack** action and explains why the integration matters.
 
+![Slack notification when hourly rate limit reached](public/photos/image.png)
+
 ## Local setup
 
 Prerequisites: Node.js 22+, npm, Docker with Compose, and credentials for the two OAuth apps. Copy `.env.example` into ignored `.env.local` and fill in its values. Generate a random session secret and a separate 32-byte encryption key encoded as 64 hex characters. Keep the encryption key stable or saved SMTP/Slack credentials cannot be decrypted.
