@@ -1,0 +1,9 @@
+.git/
+node_modules/
+.secrets/
+.env
+.env.*
+ethernal-mail-info.txt
+.local/
+coverage/
+client_secret*.json
